@@ -18,7 +18,7 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    margin-top: 150px;
+    margin-top: 90px;
     background-color: rgba(0, 0, 0, 0.596);
     background-blend-mode: multiply;
     color: white;
@@ -29,12 +29,12 @@ html {
     text-align: center;
 }
 
-.banner h1 {
+.bannerTop h1 {
     font-size: 6.5vw;
     font-family: 'Times New Roman', Times, serif;
 }
 
-.banner p {
+.bannerTop p {
     font-size: 2.5vw;
 }
 
@@ -137,11 +137,11 @@ html {
 
 
 @media screen and (max-width: 1024px) {
-    .banner h1 {
+    .bannerTop h1 {
         font-size: 7vw;
     }
     
-    .banner p {
+    .bannerTop p {
         font-size: 3vw;
     }
     .pad {
@@ -171,11 +171,11 @@ html {
     .pad{
         padding: 30px 20px 0 20px;
     }
-    .banner h1 {
+    .bannerTop h1 {
         font-size: 9vw;
     }
     
-    .banner p {
+    .bannerTop p {
         font-size: 4vw;
     }
     .row-1, .row-2 {
