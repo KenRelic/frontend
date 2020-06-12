@@ -1,0 +1,109 @@
+#header{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://res.cloudinary.com/elion-tech/image/upload/v1591786621/facilities/facilites_bbbc8m.png");
+    min-height: 100vh;
+}
+body{
+    background-color:  #E5E5E5;
+}
+
+.facility-head{
+    color: white;
+    margin-top: 200px;
+}
+
+.header-content{
+    position: relative;
+    color: white;
+    margin: auto;
+    text-align: center;
+    line-height: 50px;
+    top: 47%;
+    width: 33%;
+    letter-spacing: 2px;
+    font-size: 1em;
+    font-size: 24px;
+    letter-spacing: 0.2rem;
+}
+
+hr{
+    background-color: white;
+}
+
+
+.col{
+    height: 388px;
+    margin-top: 2%;
+}
+
+.first{
+    background: linear-gradient(rgba(34, 29, 31, 0.9), rgba(34, 29, 31, 0.39)), url("https://res.cloudinary.com/elion-tech/image/upload/c_scale,h_463,q_68/v1591786627/facilities/facility1_ovn0lr.png") no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.second{
+    background: #ffffff url("https://res.cloudinary.com/elion-tech/image/upload/v1591786629/facilities/facility2_ewbbsz.png") no-repeat center;
+    background-size: cover;
+}
+.third{
+    background: #ffffff url("https://res.cloudinary.com/elion-tech/image/upload/v1591786642/facilities/facility3_riazzq.png") no-repeat center;
+    background-size: cover;
+}
+.fourth{
+    background: #ffffff url("https://res.cloudinary.com/elion-tech/image/upload/v1591786643/facilities/facility4_paura3.png") no-repeat center;
+    background-size: cover;
+}
+.fifth{
+    background: #ffffff url("https://res.cloudinary.com/elion-tech/image/upload/v1591786656/facilities/facility5_njjnxo.png") no-repeat center;
+    background-size: cover;
+    margin-bottom: 1rem;
+}
+
+.caption{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    height: 50px;
+    width: 100%;
+    left: 0;
+    top: 340px;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 15px;
+}
+
+.first button{
+    background-color: #DBA7C1;
+    margin:auto;
+}
+.first button{
+    background-color: none;
+    border: 1px solid #DBA7C1;
+}
+/*additions*/
+@media screen and (max-width: 560px) {
+    main{
+        padding: 2rem .5rem;
+    }
+    #nav{
+        text-align: center;
+    }
+    .col{
+    height: 200px;
+    margin-top: 20px;
+    }
+    .caption{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    height: 50px;
+    width: 100%;
+    left: 0;
+    top: 152px;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 15px;
+    }
+}

@@ -1,0 +1,270 @@
+#roomspage-page{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.header{
+    height: 600px;
+    width:100%;
+    position: relative;
+    height: 100vh;
+}
+
+.bg-image, .overlay{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.bg-image{
+    
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("") center;
+    background-size: cover;
+}
+
+.hero {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://res.cloudinary.com/elion-tech/image/upload/v1591786654/roomspage/Rectangle1_vk5xxk.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+    margin-bottom: 60px;
+    
+  }
+
+
+  
+
+
+  @media screen and (max-width: 1000px) {
+    .hero {
+      width: 100vw;
+      height: 100vh;
+    }
+    
+  }
+
+.site-text{
+    border-bottom: 1px solid white;
+    padding-bottom: 1rem;
+    margin-bottom: 10px;
+}
+
+@media(max-width: 850px){
+    .header-content{
+        font-size: 16px;
+        top: 35%;
+        width: 60%;
+        
+    }
+        .bg-image{
+            background-size: fill;
+        }
+        
+        .header{
+            height: 500px;
+        }
+}
+
+.rooms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (max-width:576px){
+    .header{
+        height:71vh ;
+    } 
+    #nav{
+        text-align: center;
+    }
+    .header-div,h4{
+        font-size: 15px;
+        
+    }
+    hr{
+        width: 200px !important;
+    }
+
+    .bg-image{
+        background-size: fill;
+    }
+
+    
+}
+
+
+
+
+hr{
+    width:500px ;
+    border:1px solid #ffffff !important;
+    font-weight: 600px;
+    
+}
+
+/* row1 */
+.row1, .row2, .row3, .row4 {
+    background-size: cover;
+    height: 60vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #ffffff;
+    font-family: poppins;
+}
+.row1{
+    background-image: url("https://res.cloudinary.com/elion-tech/image/upload/v1591786651/roomspage/first_ehwlug.png");
+    
+}
+.row2{
+    background-image: url("https://res.cloudinary.com/elion-tech/image/upload/v1591786650/roomspage/second_bz2gsp.png");
+}
+.row3{
+    background-image: url("https://res.cloudinary.com/elion-tech/image/upload/q_59/v1591786652/roomspage/third_j1avsp.png");
+}
+.row4{
+    background-image: url("https://res.cloudinary.com/elion-tech/image/upload/q_63/v1591786654/roomspage/fourth_bglwca.png");
+}
+
+.deluxe{
+    /* width: -100px !important; */
+    height: 60vh;
+    background-color:  rgba(0,0,0,0.7);
+    position: absolute;
+    left:0px;
+    top: 0px;
+}
+.deluxe-suite{
+    font-size: 36px;
+    /* position: relative;
+    width: 240px;
+    height: 30px;
+    left: 40px;*/
+    padding-top: 30px; 
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    letter-spacing: 0.04em;
+}
+
+
+.standard{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    margin: .5rem 0px;
+}
+.view-details{
+    background: #DBA7C1;
+    border-radius: 4px;
+    border: none;
+    line-height: normal;
+    position: relative;
+    height: 2.5rem;
+    width: 8rem;
+    font-size: 14px;
+}
+
+.night{
+    font-weight: 500;
+    font-size: 16px; 
+    border-bottom: 2px solid #DBA7C1;
+    margin-bottom: 0px;
+    padding-bottom: .3em;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    vertical-align: baseline;
+    position: absolute;
+    top: 80%;
+    width: 90%;
+}
+.line{
+    border: 1px solid #DBA7C1 !important;
+    width: 80px !important;
+    height: 0px;
+    position: relative;
+    top:-30px !important;
+    left:100px;
+}
+
+
+@media screen and (max-width:768px){
+    .details{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: flex-start;
+    vertical-align: baseline;
+    position: absolute;
+    top: 45%;
+    width: 90%;
+}
+.view-details{
+    background: #DBA7C1;
+    border-radius: 4px;
+    border: none;
+    line-height: normal;
+    position: relative;
+    width: 6rem;
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+.night{
+    font-weight: 500;
+    font-size: 16px; 
+    border-top: 2px solid #DBA7C1;
+    border-bottom: none;
+    margin-bottom: 0px;
+    padding-top: .3em;
+}
+
+    .row{
+    background-size: cover;
+    height: 60vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-family: poppins;
+    width: 300px ;
+        height: 27vh;
+        position: relative;
+        justify-content: center;
+        left:30px;
+}
+    body{
+        overflow-x: hidden;
+    }
+    .standard{
+        display: none;
+    }
+  
+    .deluxe{
+        height: 27vh;
+        width:140px !important;
+        position: relative;
+        left:-80px;
+        
+    }
+    .deluxe-suite{
+        font-size: 16px;
+        font-weight:bold ;
+        letter-spacing: normal;
+        line-height: normal;
+        position: relative;
+        top: -15px;
+        /* line-height: 7px; */
+    }
+
+}
+.high{
+    height: 80vh;
+    
+}
